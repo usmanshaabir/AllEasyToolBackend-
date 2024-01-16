@@ -15,7 +15,7 @@ app.use(express.json())
 // Routes
 
 app.get("/", async (req, res) => {
-    res.send("hello word vfgfg")
+    res.send("hello word i mm nauman ")
 
 });
 
