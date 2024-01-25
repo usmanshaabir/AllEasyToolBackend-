@@ -1,10 +1,9 @@
 {
     "version": 2,
-    "name": "AllEasyTool",
     "builds": [
         {
             "src": "index.js",
-            "use": "@now/node"
+            "use": "@vercel/node"
         }
     ],
     "routes": [
@@ -12,8 +11,5 @@
             "src": "/(.*)",
             "dest": "/"
         }
-    ],
-    "env": {
-        "NODE_ENV": "production"
-    }
+    ]
 }
